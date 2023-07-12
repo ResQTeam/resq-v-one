@@ -30,7 +30,7 @@ const links = [
 const Header = () => {
   const [openMenu, setOpenMenu] = useState(false);
   return (
-    <header>
+    <header className="bg-white">
       <nav className="max-w-7xl mx-auto py-7 px-6 flex justify-between items-center">
         <Link to="/" className="hidden md:block">
           <p className="text-resq-dark-400 text-[2.125rem]/[1.5rem] font-volkhov">
