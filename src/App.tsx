@@ -1,6 +1,6 @@
 import { Route, Routes } from 'react-router-dom';
 import PagesLayout from './components/shared/PagesLayout';
-import Home from './pages/Home';
+import Home from './pages/Home/index';
 import About from './pages/About';
 
 const App = () => {
