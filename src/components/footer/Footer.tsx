@@ -100,7 +100,7 @@ const Footer = () => {
               <FiInstagram className="stroke-white stroke- group-hover:stroke-resq-light-100 duration-300 transition-colors1" />
             </span>
             <span className="flex justify-center items-center w-8 h-8 rounded-full bg-resq-brand-main hover:bg-resq-brand-dark group duration-300 transition-colors lg:w-10 lg:h-10 ">
-              <FiLinkedin className="stroke-white stroke-1 group-hover:stroke-resq-light-100 duration-300 transition-colors" />
+              <FiLinkedin className="group-hover:stroke-resq-light-100 duration-300 transition-colors stroke-white stroke-1 " />
             </span>
           </div>
         </div>
