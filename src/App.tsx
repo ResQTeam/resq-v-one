@@ -1,10 +1,20 @@
-function App() {
+import { Route, Routes } from 'react-router-dom';
+import PagesLayout from './components/shared/PagesLayout';
+import Home from './pages/Home/index';
+import About from './pages/About';
+
+const App = () => {
   return (
-    <div className="bg-resq-brand-main text-resq-light-100 text-center text-4xl">
-      <h1 className="font-poppins text-h1">Welcome</h1>
-      <p className="font-volkhov text-h2">Let's test</p>
-    </div>
+    <>
+      {' '}
+      <Routes>
+        <Route element={<PagesLayout />} path="/">
+          <Route index element={<Home />} />
+          <Route path="about" element={<About />} />
+        </Route>
+      </Routes>
+    </>
   );
-}
+};
 
 export default App;

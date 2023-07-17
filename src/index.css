@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  html {
+    @apply scroll-smooth;
+  }
+
+  body {
+    @apply font-poppins text-resq-dark-100;
+  }
+}
+
+@layer utilities {
+  .resq-container {
+    @apply max-w-7xl mx-auto  px-7;
+  }
+}

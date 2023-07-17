@@ -16,6 +16,8 @@ export default {
         'resq-light-300': '#EBE1E1',
         'resq-light-200': '#F5F0F0',
         'resq-light-100': '#FAFAFC',
+        'resq-light-grey': '#DEDEDE',
+        'resq-body-text-2': '#787878',
       },
       fontFamily: {
         poppins: ['Poppins', 'sans-serif'],
@@ -28,6 +30,9 @@ export default {
         h4: ['2.8125rem', '2.2rem'],
         h5: ['1.875rem', '1.65rem'],
         h6: ['1.25rem', '1.375rem'],
+      },
+      boxShadow: {
+        medium: '1px 1px 20px 10px rgba(0, 0, 0, 0.05)',
       },
     },
   },
