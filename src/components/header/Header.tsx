@@ -31,18 +31,18 @@ export const links = [
 const Header = () => {
   const [openMenu, setOpenMenu] = useState(false);
   return (
-    <header className="bg-white overflow-x-clip">
-      <nav className="max-w-7xl mx-auto py-7 px-6 flex justify-between items-center">
+    <header className="overflow-x-clip bg-white">
+      <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-7">
         <Link to="/" className="hidden md:block">
-          <p className="text-resq-dark-400 text-[2.125rem]/[1.5rem] font-volkhov">
+          <p className="font-volkhov text-[2.125rem]/[1.5rem] text-resq-dark-400">
             ResQ
           </p>
         </Link>
-        <div className="block md:hidden relative z-[6]">
+        <div className="relative z-[6] block md:hidden">
           <MenuButton openMenu={openMenu} setOpenMenu={setOpenMenu} />
         </div>
 
-        <ul className="hidden md:flex gap-x-5 lg:gap-x-9">
+        <ul className="hidden gap-x-5 md:flex lg:gap-x-9">
           {links.map((link) => {
             return (
               <li key={link.name} className="capitalize">
