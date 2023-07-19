@@ -18,6 +18,8 @@ export default {
         'resq-light-100': '#FAFAFC',
         'resq-light-grey': '#DEDEDE',
         'resq-body-text-2': '#787878',
+        'resq-service-hero-bg': '#F4F4F4',
+        'resq-dark-500': '#37393F',
       },
       fontFamily: {
         poppins: ['Poppins', 'sans-serif'],
