@@ -1,7 +1,7 @@
 import { Route, Routes } from 'react-router-dom';
 import PagesLayout from './components/shared/PagesLayout';
 import Home from './pages/Home/index';
-import About from './pages/About/About';
+import About from './pages/About/';
 import Service from './pages/Service/Service';
 
 const App = () => {
