@@ -1,4 +1,4 @@
-import { GoogleMap, MarkerF } from '@react-google-maps/api';
+import { GoogleMap, MarkerF, useLoadScript } from '@react-google-maps/api';
 import { useCallback, useMemo, useState } from 'react';
 
 type MapProps = {
@@ -22,11 +22,15 @@ const GMap = ({
   // });
 
   const [hospitals, setHospitals] = useState<any>([]);
-  // const [map, setMap] = useState();
 
   const onLoad = useCallback((map: google.maps.Map) => {
     const { lat, lng } = userLocation;
-
+    console.log(typeof google.maps.places);
+    if (typeof google !== undefined) {
+      console.log('we are live');
+    } else {
+      console.log('nothing dey here');
+    }
     let googleMenu = google.maps;
     // setTimeout(() => {
 
