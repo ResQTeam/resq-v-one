@@ -4,7 +4,7 @@ import FAQ from './FAQ';
 import FaqSideBar from './FaqSideBar';
 
 interface FAQData {
-  id: Number;
+  id: number;
   question: string;
   answer: string;
 }
