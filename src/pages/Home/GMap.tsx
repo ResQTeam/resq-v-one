@@ -70,8 +70,10 @@ const GMap = ({
         mapContainerStyle={{ width: '100%', height: '450px' }}
         onLoad={onLoad}
       >
-        {hospitals.map((item: any, idx: number) => {
-          return <MarkerF key={idx} position={item.geometry.location} />;
+        {hospitals.map((item: any) => {
+          return (
+            <MarkerF key={item.place_id} position={item.geometry.location} />
+          );
         })}
         {/* <MarkerF position={center} /> */}
       </GoogleMap>
