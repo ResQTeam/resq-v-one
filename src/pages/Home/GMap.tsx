@@ -1,4 +1,4 @@
-import { GoogleMap, MarkerF, useLoadScript } from '@react-google-maps/api';
+import { GoogleMap, MarkerF } from '@react-google-maps/api';
 import { useCallback, useMemo, useState } from 'react';
 
 type MapProps = {
