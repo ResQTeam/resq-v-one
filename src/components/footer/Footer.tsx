@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <footer>
       <div className="bg-resq-dark-300">
-        <div className="resq-container pb-8 pt-6 lg:flex lg:items-center lg:justify-between lg:py-16">
+        <div className="resq-container pb-8 pt-6 lg:flex lg:items-center lg:justify-start lg:gap-52 lg:py-16">
           <div className="flex items-center gap-x-5">
             <Message className="h-8 w-8 lg:h-16 lg:w-16" />
             <p className="font-bold leading-[1.15625rem] text-white lg:text-2xl">
@@ -65,7 +65,7 @@ const Footer = () => {
                     {f.links?.map((l) => (
                       <div key={`flinks-${l}`} className="flex items-center">
                         <AiOutlineRight />
-                        <span className="text-[1.0625rem] capitalize text-resq-body-text-2">
+                        <span className="text-[1rem] font-medium capitalize text-resq-body-text-2">
                           {l}
                         </span>
                       </div>
@@ -97,7 +97,7 @@ const Footer = () => {
               <FiTwitter className="stroke-white stroke-1 transition-colors duration-300 group-hover:stroke-resq-light-100" />
             </span>
             <span className="group flex h-8 w-8 items-center justify-center rounded-full bg-resq-brand-main transition-colors duration-300 hover:bg-resq-brand-dark  lg:h-10 lg:w-10">
-              <FiInstagram className="stroke- transition-colors1 stroke-white duration-300 group-hover:stroke-resq-light-100" />
+              <FiInstagram className="transition-colors1 stroke-white stroke-1 duration-300 group-hover:stroke-resq-light-100" />
             </span>
             <span className="group flex h-8 w-8 items-center justify-center rounded-full bg-resq-brand-main transition-colors duration-300 hover:bg-resq-brand-dark lg:h-10 lg:w-10 ">
               <FiLinkedin className="stroke-white stroke-1 transition-colors duration-300 group-hover:stroke-resq-light-100 " />
