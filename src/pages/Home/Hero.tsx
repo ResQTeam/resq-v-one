@@ -28,7 +28,7 @@ const Hero = () => {
             </button>
             <Link
               to="services"
-              className="rounded-[100px] border border-resq-brand-main bg-white px-[1.125rem] py-[0.8125rem] text-xs font-bold text-resq-brand-main transition-colors duration-300 hover:border-white hover:bg-resq-brand-dark hover:text-white md:px-[1.6875rem] md:text-base"
+              className="rounded-[100px] border border-resq-brand-main bg-white px-[1.125rem] py-[0.8125rem]  text-xs/3 font-bold text-resq-brand-main  transition-colors duration-300 hover:border-white hover:bg-resq-brand-dark hover:text-white md:px-[1.6875rem] md:text-xl"
             >
               View Services
             </Link>
