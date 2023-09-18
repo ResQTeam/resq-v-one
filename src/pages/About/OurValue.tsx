@@ -41,13 +41,13 @@ const OurValue = () => {
           <div className="mt-8 flex justify-center gap-5">
             <Link
               to="/contact"
-              className="rounded-full border border-solid border-resq-dark-400 bg-white px-9 py-4 text-xs text-resq-dark-400 transition-colors duration-300 hover:bg-resq-brand-subtle md:text-lg"
+              className="rounded-full border border-solid border-resq-dark-400 bg-white px-6 py-4 text-xs text-resq-dark-400 transition-colors duration-300 hover:bg-resq-brand-subtle md:px-9 md:text-lg"
             >
               Get In Touch
             </Link>
             <Link
               to="/contact"
-              className="flex items-center gap-2 rounded-full bg-resq-dark-400 px-6 py-4 text-xs text-white transition-colors duration-300 hover:bg-resq-dark-300 md:text-lg"
+              className="flex items-center gap-2 rounded-full bg-resq-dark-400 px-6 py-4 text-xs text-white transition-colors duration-300 hover:bg-resq-dark-300 md:px-9 md:text-lg"
             >
               <span>Our Services </span>{' '}
               <span className="inline-block">

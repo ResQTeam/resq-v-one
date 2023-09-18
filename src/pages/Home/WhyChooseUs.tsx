@@ -25,33 +25,33 @@ const feats = [
 const WhyChooseUs = () => {
   return (
     <section>
-      <div className="resq-container pt-20 md:pt-28 md:flex md:gap-x-12 md:items-center lg:items-start lg:gap-x-28">
+      <div className="resq-container pt-20 md:flex md:items-center md:gap-x-12 md:pt-28 lg:items-start lg:gap-x-28">
         <div className="md:w-1/2 md:max-w-[487px]">
           <SmallTitleHeader title="Why Choose Us" justifyCenter={false} />
-          <h3 className="text-resq-dark-400 font-bold mt-2 md:mt-4 text-[0.9375rem]/[1.21875rem] md:text-5xl md:leading-normal max-w-[29.125rem]">
+          <h3 className="mt-2 max-w-[29.125rem] text-[0.9375rem]/[1.21875rem] font-bold text-resq-dark-400 md:mt-4 md:text-5xl md:leading-normal">
             Premium Rapid <br /> Response Service
           </h3>
-          <p className="mt-3 md:mt-5 text-[0.8125rem]/[1.375rem] max-w-[487px]">
+          <p className="mt-3 max-w-[487px] text-[0.8125rem]/[1.375rem] md:mt-5">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dui
             mi, bibendum eu erat id, ultricies semper metus. Nunc dolor.
           </p>
 
           <img src={img} alt="" className="mt-6 md:mt-8" />
-          <div className="bg-resq-brand-main py-5 px-[0.625rem] md:px-6 md:py-8 flex justify-between items-center -mt-16 md:-mt-[5.45rem]">
-            <span className="text-[0.625rem] md:text-lg text-white ">
+          <div className="-mt-16 flex items-center justify-between bg-resq-brand-main px-[0.625rem] py-5 md:-mt-[5.45rem] md:px-6 md:py-8">
+            <span className="text-[0.625rem] text-white md:text-lg ">
               Volunteers Wanted ASAP!
             </span>
-            <button className="bg-white text-resq-brand-main rounded-full px-4 py-1 md:py-[0.375rem] md:px-7 text-[0.625rem]/[1.7125rem] md:text-lg/[1.7125rem] ">
+            <button className="rounded-full bg-white px-4 py-1 text-[0.625rem]/[1.7125rem] text-resq-brand-main md:px-7 md:py-[0.375rem] md:text-lg/[1.7125rem] ">
               Apply Now
             </button>
           </div>
         </div>
         <div className="mt-2 md:mt-0 md:w-1/2 md:max-w-[637px]">
-          <div className="bg-resq-light-300  md:py-5 px-6 divide-y-2 md:divide-y-4">
+          <div className="divide-y-2 divide-white  bg-resq-brand-subtle px-6 md:divide-y-4 md:py-5">
             {feats.map((f) => (
               <div
                 key={f.num}
-                className="flex items-center justify-center gap-5 py-[3.75rem] lg:w-3/5 lg:mx-auto "
+                className="flex items-center justify-center gap-5 py-[3.75rem]  "
               >
                 <div>
                   {f.img === 'hands' ? (
@@ -63,7 +63,7 @@ const WhyChooseUs = () => {
                   )}
                 </div>
                 <div className="space-y-2">
-                  <p className="text-resq-dark-400 text-4xl/[1.875rem] font-bold lg:text-[4.375rem] lg:leading-none">
+                  <p className="text-4xl/[1.875rem] font-bold text-resq-dark-400 lg:text-[4.375rem] lg:leading-none">
                     {f.num}
                   </p>
                   <p className="text-[0.625rem]/3 capitalize md:text-lg/6">

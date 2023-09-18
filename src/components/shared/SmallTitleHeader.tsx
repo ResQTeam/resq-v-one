@@ -5,10 +5,10 @@ const SmallTitleHeader = ({ title, justifyCenter }: SmallTitleHeaderProps) => {
     <div
       className={`flex items-center ${
         justifyCenter ? 'justify-center' : 'justify-start'
-      } gap-x-1`}
+      } gap-3`}
     >
-      <span className="w-2 h-2 md:w-3 md:h-3 inline-block bg-resq-brand-main"></span>
-      <h2 className="text-center ujtext-[0.8125rem]/[0.625rem] md:text-lg/[1.78125rem]  ">
+      <span className="inline-block h-2 w-2 bg-resq-brand-main md:h-3 md:w-3"></span>
+      <h2 className="ujtext-[0.8125rem]/[0.625rem] text-center uppercase tracking-widest md:text-lg/[1.78125rem]  ">
         {title}
       </h2>
     </div>
