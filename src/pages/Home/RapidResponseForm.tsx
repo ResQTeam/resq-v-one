@@ -2,11 +2,19 @@ import Select, { SingleValue } from 'react-select';
 
 import { FormEvent, useState } from 'react';
 import { AiOutlineClose } from 'react-icons/ai';
-import { serviceOptions } from '../../utils/options';
+import {
+  ageOptions,
+  emergencyOptions,
+  genderOptions,
+  locationOptions,
+  serviceOptions,
+} from '../../utils/options';
 
 import { Libraries, useJsApiLoader } from '@react-google-maps/api';
 import React from 'react';
 import GMap from './GMap';
+
+const libraries: Libraries = ['places'];
 
 export type EstablishmentProps = {
   id: string;
@@ -18,8 +26,6 @@ export type EstablishmentProps = {
     };
   };
 };
-
-const libraries: Libraries = ['places'];
 
 const RapidResponseForm = () => {
   const [serviceType, setServiceType] = useState<
@@ -104,11 +110,7 @@ const RapidResponseForm = () => {
             >
               Location
             </label>
-            <Select
-              options={serviceOptions}
-              onChange={handleChange}
-              id="service"
-            />
+            <Select options={locationOptions} id="location" />
           </div>
         </div>
         <div className="space-y-4 md:flex md:items-center md:justify-between md:space-y-0">
@@ -119,11 +121,7 @@ const RapidResponseForm = () => {
             >
               Age
             </label>
-            <Select
-              options={serviceOptions}
-              onChange={handleChange}
-              id="service"
-            />
+            <Select options={ageOptions} id="age" />
           </div>
           <div className="md:w-1/4">
             <label
@@ -132,11 +130,7 @@ const RapidResponseForm = () => {
             >
               Gender
             </label>
-            <Select
-              options={serviceOptions}
-              onChange={handleChange}
-              id="service"
-            />
+            <Select options={genderOptions} id="gender" />
           </div>
           <div className="md:w-1/4">
             <label
@@ -145,11 +139,7 @@ const RapidResponseForm = () => {
             >
               Emergency
             </label>
-            <Select
-              options={serviceOptions}
-              onChange={handleChange}
-              id="service"
-            />
+            <Select options={emergencyOptions} id="emergency" />
           </div>
           <div className="flex justify-end md:block">
             <button className="rounded-full bg-resq-brand-main px-9 py-3 text-center text-sm text-white hover:bg-resq-brand-dark md:mt-5">
