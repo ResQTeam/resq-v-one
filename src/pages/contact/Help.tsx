@@ -129,7 +129,7 @@ const Help = () => {
                     stroke="#CC5E28"
                     strokeWidth="1.5"
                     strokeLinecap="round"
-                    stroke-linejoin="round"
+                    strokeLinejoin="round"
                   />
                   <path
                     d="M18.3333 8.34591C18.3333 5.12091 15.725 2.51257 12.5 2.51257"
