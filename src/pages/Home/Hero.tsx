@@ -15,9 +15,9 @@ const Hero = () => {
             Problem? <br /> Call Us Anytime!
           </h2>
           <p className="mt-4  max-w-[30.4375rem] text-xs/6 md:mt-6 md:text-lg/8">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus
-            imperdiet sed id elementum. Quam vel aliquam sit vulputate. Faucibus
-            nec gravida ipsum pulvinar vel non.
+            Connecting People in Need to Emergency Responders in Seconds Are you
+            in an Emergency? Don't Panic — sign up in less than 60 seconds and
+            get the closest responder to your location
           </p>
           <div className="mt-4 flex items-center gap-x-10 md:mt-6">
             <button className="flex items-center justify-center gap-x-[10px] rounded-[100px] bg-resq-brand-main px-[1.125rem] py-[0.8125rem] transition-colors duration-300 hover:bg-resq-brand-dark md:px-[1.6875rem]">
