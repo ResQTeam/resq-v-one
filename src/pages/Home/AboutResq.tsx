@@ -3,7 +3,7 @@ import { FaCheck } from 'react-icons/fa';
 import SmallTitleHeader from '../../components/shared/SmallTitleHeader';
 
 import woman from '../../assets/resq-aboutresq.webp';
-import Phone from '../../components/shared/svg/Phone';
+import Emergency from '../../components/shared/Emergency';
 
 const AboutResq = () => {
   return (
@@ -24,9 +24,13 @@ const AboutResq = () => {
         </div>
         <div className="mt-4 px-7 md:col-start-2 md:-mt-[410px]">
           <p className="max-w-[32.5625rem] text-[0.8125rem]/[1.5625rem]">
-            Lorem ipsum dolor sit amet consectetur. Vel vulputate aliquam lectus
-            elementum at. Enim nisl sagittis quis auctor mattis. Ut turpis
-            viverra diam lacus ac in nunc morbi in sem.
+            Our secure, efficient, and comprehensive emergency service
+            management platform is designed to streamline and enhance safety
+            during critical events. We know that the most important thing in an
+            emergency is reliable, fast assistance from professionals. But a lot
+            of the time we don’t know the right numbers to call or even the
+            closest responders to us. That’s why our mission is to help people
+            get the help they need when they’re in an emergency.
           </p>
           <div className="mt-5 grid grid-cols-2 gap-7 md:mt-10  md:gap-y-12">
             <div className="flex gap-x-3">
@@ -63,15 +67,7 @@ const AboutResq = () => {
             </div>
           </div>
           <div className="mt-6 flex h-[42px] w-[148px] items-center gap-x-1 rounded-full bg-resq-light-200 px-3 py-2 md:mt-24 md:h-[82px]   md:w-[271px] md:gap-x-3 md:px-6">
-            <div className="flex h-[27px] w-[29px] items-center justify-center rounded-md bg-resq-brand-main md:h-[52px] md:w-[59px] md:rounded-[10px]">
-              <Phone className="h-5 w-5  md:h-[35px] md:w-[27px]" />
-            </div>
-            <div className="">
-              <p className="text-[0.625rem] md:text-base">Emergency Call</p>
-              <p className="text-xs font-bold text-resq-dark-400 md:text-[1.375rem]/[1.5rem]">
-                777 657 0000
-              </p>
-            </div>
+            <Emergency textColor="black" />
           </div>
         </div>
       </div>
