@@ -13,9 +13,7 @@ const OurMission = () => {
           <SmallTitleHeader title="our mission" justifyCenter={false} />
           <SmallHeader3 title="Ipsum ut sc Phasellus" justify={false} />
           <p className="mt-[0.625rem] max-w-[495px] text-[0.8125rem]/[1.3125rem]">
-            Lorem ipsum dolor sit amet consectetur. Commodo tempus arcu cras
-            cras dis mattis. Cursus adipiscing ac porta varius velit ut nibh.
-            Phasellus id non phasellus phasellus tellus consequat.
+            Connect you to the nearest emergency service around you.
           </p>
           <img
             src={fire}

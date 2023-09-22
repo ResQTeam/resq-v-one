@@ -14,10 +14,12 @@ const Hero = () => {
           </div>
           <div>
             <p className="mt-3 text-[0.8125rem]/[1.3125rem] md:text-lg lg:mt-0 lg:max-w-[515px]">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea{' '}
+              Our secure, efficient, and comprehensive emergency service
+              management platform is designed to streamline and enhance safety
+              during critical events. We know that the most important thing in
+              an emergency is reliable, fast assistance from professionals.
+              That’s why our mission is to help people get the help they need
+              when they’re in an emergency.
             </p>
           </div>
         </div>

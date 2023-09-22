@@ -32,8 +32,11 @@ const WhyChooseUs = () => {
             Premium Rapid <br /> Response Service
           </h3>
           <p className="mt-3 max-w-[487px] text-[0.8125rem]/[1.375rem] md:mt-5">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dui
-            mi, bibendum eu erat id, ultricies semper metus. Nunc dolor.
+            With ResQ, emergency responders are just a touch away. The website
+            works by allowing users to quickly and easily contact the nearest
+            emergency responders with just a few taps. This process is
+            completely secure and private, so you can rest assured that your
+            information remains safe and no one else will be able to access it.
           </p>
 
           <img src={img} alt="" className="mt-6 md:mt-8" />
