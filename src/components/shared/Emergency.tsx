@@ -2,9 +2,9 @@ import Phone from './svg/Phone';
 
 const Emergency = ({ textColor }: { textColor: string }) => {
   return (
-    <div className="flex items-center gap-x-1 md:gap-x-3 ">
-      <div className="bg-resq-brand-main w-[29px] h-[27px] md:w-[59px] md:h-[52px] flex justify-center items-center rounded-md md:rounded-[10px]">
-        <Phone className="w-5 h-5  md:w-[27px] md:h-[35px]" />
+    <a href="tel:112" className="flex items-center gap-x-1 md:gap-x-3 ">
+      <div className="flex h-[27px] w-[29px] items-center justify-center rounded-md bg-resq-brand-main md:h-[52px] md:w-[59px] md:rounded-[10px]">
+        <Phone className="h-5 w-5  md:h-[35px] md:w-[27px]" />
       </div>
       <div className="">
         <p
@@ -21,12 +21,12 @@ const Emergency = ({ textColor }: { textColor: string }) => {
             textColor.toLowerCase() === 'black'
               ? 'text-resq-dark-400'
               : 'text-white'
-          } font-bold text-xs md:text-[1.375rem]/[1.5rem]`}
+          }  text-xs font-bold md:text-[1.375rem]/[1.5rem]`}
         >
-          777 657 0000
+          112
         </p>
       </div>
-    </div>
+    </a>
   );
 };
 
